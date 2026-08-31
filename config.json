@@ -1,0 +1,8 @@
+{
+  "server_ip": "Ipsahil990.aternos.me",
+  "server_port": 18104,
+  "username": "ServerBot",
+  "check_interval": 300,
+  "reconnect_attempts": 5,
+  "restart_command": ""
+}
