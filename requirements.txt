@@ -3,3 +3,5 @@ mcrcon==0.6.4
 requests==2.31.0
 PyYAML==6.0.1
 python-dotenv==1.0.0
+mcstatus==11.1.1
+minecraft-launcher-lib==5.4
