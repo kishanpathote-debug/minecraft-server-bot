@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-server-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing and monitoring Minecraft servers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["minecraft", "discord", "bot"],
+  "author": "kishanpathote-debug",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.5.0",
+    "minecraft-server-util": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
