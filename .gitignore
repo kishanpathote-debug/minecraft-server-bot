@@ -1,5 +1,26 @@
-node_modules/
+# Environment
 .env
-.DS_Store
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
 *.log
-npm-debug.log*
+server_bot.log
+
+# Config with sensitive data
+config.local.json

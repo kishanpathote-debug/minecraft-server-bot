@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  minecraft-bot:
+    build: .
+    container_name: minecraft-server-bot
+    environment:
+      - SERVER_IP=sahil990.aternos.me
+      - SERVER_PORT=18104
+      - BOT_USERNAME=ServerBot
+      - CHECK_INTERVAL=300
+    volumes:
+      - ./config.json:/app/config.json
+      - ./logs:/app/logs
+    restart: always
+    networks:
+      - minecraft-network
+
+networks:
+  minecraft-network:
+    driver: bridge
